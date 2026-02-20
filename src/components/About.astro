@@ -1,0 +1,39 @@
+---
+import { siteConfig } from "../config";
+---
+
+<section id="about" class="py-20 md:py-24" style="background-color: white;">
+  <div class="max-w-4xl mx-auto px-6">
+
+    <!-- Pull quote -->
+    <div class="reveal text-center mb-14">
+      <blockquote class="quote-float">
+        <p class="font-accent text-2xl md:text-3xl lg:text-4xl italic leading-relaxed" style="color: var(--color-primary-dark);">
+          "{siteConfig.quote.text}"
+        </p>
+        <cite class="block mt-4 text-sm font-semibold not-italic uppercase tracking-widest" style="color: var(--color-accent);">
+          — {siteConfig.quote.author}
+        </cite>
+      </blockquote>
+    </div>
+
+    <div class="bar-shimmer h-px rounded-full mb-14"></div>
+
+    <!-- About content -->
+    <div class="reveal stagger-1">
+      <h2 class="text-sm font-bold uppercase tracking-widest mb-8" style="color: var(--color-primary);">
+        About Monica
+      </h2>
+
+      <div class="space-y-5 text-lg leading-relaxed" style="color: #475569;">
+        <p>{siteConfig.about.intro}</p>
+        <p>{siteConfig.about.story}</p>
+        <p class="font-medium" style="color: var(--color-primary-dark);">
+          {siteConfig.about.philosophy}
+        </p>
+        <p>{siteConfig.about.approach}</p>
+      </div>
+    </div>
+
+  </div>
+</section>
