@@ -24,8 +24,8 @@ export const siteConfig = {
   ],
 
   stats: [
-    { value: "20+", label: "Years of Experience" },
-    { value: "3", label: "Countries" },
+    { value: "17+", label: "Years of Experience" },
+    { value: "3", label: "Languages" },
     { value: "ICF", label: "Certified Coach" },
   ],
 
@@ -35,10 +35,11 @@ export const siteConfig = {
   },
 
   about: {
-    intro: "I'm a certified coach and organizational effectiveness leader with over 20 years of experience helping people and organizations navigate growth and change.",
-    story: "My career began in Human Resources and evolved through leadership roles in organizational effectiveness, change management, and talent strategy across global and matrix organizations. Along the way, I discovered my greatest passion: empowering people to move through uncertainty with confidence, clarity, and purpose.",
-    philosophy: "I believe growth happens when we create space to reflect, build awareness, and take intentional steps forward — even when the path feels unclear.",
-    approach: "I bring together the best of both worlds — the strategic lens of a change leader and the human-centered presence of a coach — to help individuals, teams, and organizations grow through change.",
+    intro: "Monica Navascues is a VP-level People & Culture leader with over 17 years of progressive HR leadership experience across multi-sector, growth-oriented organizations in North America and globally. She partners with executive teams to connect people strategy directly to revenue, aligning workforce planning, organizational design, leadership capability, and culture to measurable business performance and sustainable growth.",
+    story: "Monica is known for bringing clarity and structure during periods of scale and transformation. She has led enterprise talent strategies, succession planning, performance and compensation frameworks, and complex organizational change initiatives that elevate both operational results and employee experience. A trusted advisor to senior leaders, she strengthens executive effectiveness through thoughtful coaching and disciplined workforce strategy.",
+    philosophy: "She is an ICF-ACC certified executive coach, Prosci change management certified, holds a Master's degree in International Business, and is a CHRL. Fluent in English, Spanish, and Portuguese, Monica brings strong multicultural sensitivity and is a committed advocate for diversity, equity, and inclusive leadership practices across global and cross-border teams.",
+    approach: "Based in Canada, she brings extensive experience supporting U.S., Latam, and EU and international workforces in matrixed environments. Monica is open to VP People & Culture and Senior HR / Organizational Effectiveness roles within global organizations seeking strategic rigor, human-centered leadership, and disciplined execution.",
+    closing: "She welcomes meaningful conversations with leaders and peers who are building organizations designed to grow, perform, and thrive. Let's connect.",
   },
 
   services: [
@@ -97,6 +98,62 @@ export const siteConfig = {
     ],
   },
 
+  servicesEs: [
+    {
+      id: "discover",
+      verb: "Descubrir",
+      title: "Jóvenes Profesionales y Talento Emergente",
+      tagline: "Descubre quién eres — y hacia dónde quieres ir.",
+      description: "Para jóvenes adultos que se incorporan al mundo laboral, las decisiones de carrera pueden parecer abrumadoras. Ayudo a mis clientes a descubrir sus fortalezas, ganar confianza y navegar la transición de la incertidumbre a la acción.",
+      areas: [
+        "Autoconocimiento y exploración de propósito",
+        "Coaching de confianza y mentalidad",
+        "Planificación de carrera y estrategias de búsqueda laboral",
+        "Habilidades de comunicación y networking",
+        "Transiciones de vida y toma de decisiones",
+      ],
+    },
+    {
+      id: "lead",
+      verb: "Liderar",
+      title: "Coaching de Liderazgo y Ejecutivo",
+      tagline: "Lidera con autenticidad y agilidad.",
+      description: "Para profesionales experimentados, gerentes y ejecutivos — el crecimiento frecuentemente ocurre en la intersección del desafío y el cambio. Mi coaching ayuda a los líderes a profundizar su autoconocimiento, fortalecer su influencia y navegar entornos complejos con propósito.",
+      areas: [
+        "Mentalidad de liderazgo e inteligencia emocional",
+        "Navegando el cambio organizacional",
+        "Comunicación, influencia y presencia ejecutiva",
+        "Construcción de equipos de alto rendimiento",
+        "Toma de decisiones estratégica",
+      ],
+    },
+    {
+      id: "transform",
+      verb: "Transformar",
+      title: "Coaching de Cambio",
+      tagline: "Guiando a individuos, equipos y organizaciones a través de la transformación.",
+      description: "El cambio no es solo un evento organizacional — es una experiencia profundamente humana. Hago coaching a individuos, líderes y equipos para pasar de la resistencia a la disposición, y de la incertidumbre al compromiso.",
+      areas: [
+        "Coaching durante transformación y reestructuración",
+        "Ayudar a líderes a comunicar y liderar el cambio",
+        "Desarrollar adaptabilidad y resiliencia individual",
+        "Facilitar la preparación al cambio en todas las funciones",
+        "Apoyar a equipos a recuperar enfoque y cohesión",
+      ],
+    },
+  ],
+
+  consultingEs: {
+    title: "Servicios de Consultoría",
+    description: "Efectividad Organizacional, RRHH y Gestión del Cambio",
+    areas: [
+      "Transformación empresarial y gestión del cambio",
+      "Gestión del talento y efectividad organizacional",
+      "Modernización de RRHH e implementación tecnológica",
+      "Cultura como habilitador del crecimiento",
+    ],
+  },
+
   approachSteps: [
     { label: "Reflect", description: "Create space for self-awareness" },
     { label: "Discover", description: "Build clarity and insight" },
@@ -104,40 +161,10 @@ export const siteConfig = {
     { label: "Grow", description: "Move forward with purpose" },
   ],
 
-  journey: [
-    {
-      region: "Spain",
-      flag: "🇪🇸",
-      description: "Education & early career",
-      detail: "Escuela Europea de Negocios — MBA",
-    },
-    {
-      region: "Latin America",
-      flag: "🌎",
-      description: "Global HR leadership",
-      detail: "Multiple countries — organizational transformation",
-    },
-    {
-      region: "Canada",
-      flag: "🇨🇦",
-      description: "Coaching & change leadership",
-      detail: "Avanade · Wrigley Canada · Independent Coach",
-    },
-  ],
-
-  experience: [
-    {
-      company: "Avanade (Accenture/Microsoft JV)",
-      title: "Group Manager, Business Human Resources",
-      location: "Toronto, Canada",
-      description: "Global HR leadership in matrix organization, guiding executives and teams through transformation.",
-    },
-    {
-      company: "Wrigley Canada (Mars)",
-      title: "Senior Training & Development Specialist",
-      location: "Calgary, Canada",
-      description: "Training programs and talent development at scale.",
-    },
+  languages: [
+    { lang: "English", flag: "🇺🇸" },
+    { lang: "Español", flag: "🇪🇸" },
+    { lang: "Português", flag: "🇧🇷" },
   ],
 
   volunteer: [
