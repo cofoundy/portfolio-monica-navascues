@@ -35,11 +35,11 @@ export const siteConfig = {
   },
 
   about: {
-    intro: "Monica Navascues is a VP-level People & Culture leader with over 17 years of progressive HR leadership experience across multi-sector, growth-oriented organizations in North America and globally. She partners with executive teams to connect people strategy directly to revenue, aligning workforce planning, organizational design, leadership capability, and culture to measurable business performance and sustainable growth.",
-    story: "Monica is known for bringing clarity and structure during periods of scale and transformation. She has led enterprise talent strategies, succession planning, performance and compensation frameworks, and complex organizational change initiatives that elevate both operational results and employee experience. A trusted advisor to senior leaders, she strengthens executive effectiveness through thoughtful coaching and disciplined workforce strategy.",
-    philosophy: "She is an ICF-ACC certified executive coach, Prosci change management certified, holds a Master's degree in International Business, and is a CHRL. Fluent in English, Spanish, and Portuguese, Monica brings strong multicultural sensitivity and is a committed advocate for diversity, equity, and inclusive leadership practices across global and cross-border teams.",
-    approach: "Based in Canada, she brings extensive experience supporting U.S., Latam, and EU and international workforces in matrixed environments. Monica is open to VP People & Culture and Senior HR / Organizational Effectiveness roles within global organizations seeking strategic rigor, human-centered leadership, and disciplined execution.",
-    closing: "She welcomes meaningful conversations with leaders and peers who are building organizations designed to grow, perform, and thrive. Let's connect.",
+    intro: "Monica Navascues is a VP-level People & Culture executive with more than 17 years of progressive global HR leadership experience across growth-oriented and multi-sector organizations. She partners closely with executive teams to align people strategy with business performance — connecting workforce planning, organizational design, leadership capability, culture, and operational execution to sustainable growth and measurable results.",
+    story: "Known for bringing clarity and disciplined structure during periods of scale, transformation, and complexity, Monica has led enterprise talent strategies, succession and performance frameworks, compensation architecture, and enterprise-wide change initiatives that strengthen both business outcomes and employee experience. She is a trusted advisor to senior leaders, enhancing executive effectiveness through strategic workforce planning, thoughtful counsel, and practical, human-centered leadership.",
+    philosophy: "As an ICF-ACC certified executive coach, Monica also works directly with senior leaders and high-potential executives seeking to elevate their leadership presence, navigate complexity with confidence, and align performance with purpose. Her coaching approach integrates business acumen, behavioral insight, and practical accountability, supporting leaders in achieving measurable growth while strengthening self-awareness and resilience.",
+    approach: "Monica holds a Master's degree in International Business, is Prosci-certified in Change Management, and is a CHRL. Fluent in English, Spanish, and Portuguese, she brings strong multicultural fluency and a deep commitment to inclusive, globally minded leadership practices. Based in Canada, she has extensive experience supporting U.S., LATAM, European, and international workforces within complex, matrixed environments.",
+    closing: "She welcomes conversations with organizations seeking strategic People & Culture leadership, as well as leaders ready to invest in their own growth and executive impact.",
   },
 
   services: [
@@ -189,5 +189,6 @@ export const siteConfig = {
   social: {
     email: "monica.navascues@gmail.com",
     linkedin: "https://www.linkedin.com/in/navascuesmonica/",
+    icf: "https://gtacoaches.wildapricot.org/Sys/PublicProfile/85794750/6568624",
   },
 };
